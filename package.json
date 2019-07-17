@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "babel-node src/test.js",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist --ignore '**/test.js'"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
