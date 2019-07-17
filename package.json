@@ -1,0 +1,8 @@
+{
+  "name": "redux-edu",
+  "version": "1.0.0",
+  "description": "Redux implementation for educational purpose",
+  "main": "index.js",
+  "author": "vanita5",
+  "license": "MIT"
+}
