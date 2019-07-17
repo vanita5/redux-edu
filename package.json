@@ -4,5 +4,15 @@
   "description": "Redux implementation for educational purpose",
   "main": "index.js",
   "author": "vanita5",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node src/test.js",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4"
+  }
 }
